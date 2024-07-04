@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    >
+<!--image view-->
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/bmi"
+        android:layout_marginBottom="20dp"
+        />
+<!-- text view 1-->
+    <TextView
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal"/>
+    <!-- text view 2-->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"/>
+<!--radio group -->
+    <RadioGroup
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp">
+<!-- radio buttens-->
+
+    <RadioButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Male"
+        android:textColor="@color/black"/>
+
+
+    <RadioButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="female"
+        />
+    </RadioGroup>
+
+<!--text-age-->
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="age"
+        android:textColor="@color/black" />
+<!--text weight-->
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="weight"
+        android:textColor="@color/black"
+        android:layout_marginLeft="107dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp">
+<!--text feet-->
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Feet"
+            android:layout_marginLeft="108dp"/>
+        <!--text inch-->
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Inch"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textColor="@color/blue"/>
+
+
+
+
+</LinearLayout>
